@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+::before,
+::after {
+  box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+@media (max-width: 75em) {
+    html {
+      font-size: 60%;
+    }
+  }
+  @media (max-width: 61.25em) {
+    html {
+      font-size: 58%;
+    }
+  }
+  @media (max-width: 28.75em) {
+    html {
+      font-size: 55%;
+    }
+  }
+body{
+    
+    background-color: black;
+ font-family: 'Poppins', sans-serif;
+}
+
+  
+
+.nav{
+    display:flex;
+    justify-content: flex-end;
+    background-color: gray;
+    line-height: 8vh;
+    height:50px;
+    padding-bottom:0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+.nav-list li{
+    display: inline-block;
+    margin-right: 25px;
+}
+.nav-list a{
+text-decoration: none;
+color:white;
+}
+.nav-list a:hover{
+cursor: pointer;
+color:red;
+text-decoration: 2px #48cae4 underline;
+padding:10px;
+}
+.intro{
+    color:skyblue;
+    text-align: center;
+    margin-top: 15%;
+    font-size:40px;   
+    
+}
+.welcome-section{
+height:500px;
+width:100%;
+}
+.bb{
+    text-align: center;
+    margin:20px 20px;
+    border:none;
+    font-family: monospace, 'Times New Roman', Times, serif;
+}
+.cv{
+    padding:10px;
+    border-radius: 5px;
+}
+
+.re{
+    color:white;
+    text-align: center;
+    font-size: 30PX;
+    margin-top: 50px;
+}
+.header-2{
+    color: white;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+
+#contact{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.contact-links{
+    padding-bottom: 50px;
+
+}
+.contact-details{
+    color:white;
+    text-decoration:none;
+    padding-right: 20px;
+}
+.contact-details:hover{
+    color: aqua;
+    
+}
+
+.edu-header{
+    color:white;
+    text-align: center;
+    
+}
+.univ-logo{
+    text-align: center;
+}
+.univ-logo img{
+
+    margin-top: 40px;
+    height:100px;
+}
+.univ-de{
+    color:white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.feed-back-form{
+    height:250px;
+    width:300px;
+    align-items: center;
+    text-align: center;
+    margin-bottom:150px;
+    border-radius:5px;
+    border:solid orange 2px;
+    
+}
+
+.ff{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    color:white;
+    padding:10px;
+}
+.project-image{
+    height:300px;
+    width:300px;
+    display: inline-block;
+   border-radius: 15px;
+   margin-left: 200px;
+
+}
+.project-title{
+    color:white;
+    text-align: center;
+}
